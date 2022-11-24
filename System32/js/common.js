@@ -43,9 +43,9 @@ function cargadoDOMAny(){
     document.getElementById("cerrarModal").click();
    //cerrarModal
    // $('#ElModal').modal({ show: true});
-    if (lady = 3) {
+ /*if (lady = 3) {
      romina(nombre)
- }
+ }*/
 }
 document.getElementById('cerrarModal').onclick = function  (){
     //document.getElementById("ActualAlert")

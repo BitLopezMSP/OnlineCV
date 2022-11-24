@@ -29,3 +29,30 @@
 .fondoantigradiente{
     background: var(--antigradiente) !important;
 }
+
+
+
+  
+  @media  (max-width: 576px) and (orientation: portrait) {
+  
+    #contentnavbar ul{
+        /*align-self: flex-end !important;*/
+       /*align-content: flex-end !important;*/
+        align-items: flex-end !important;
+        
+        /*justify-content: end !important;*/
+        }
+  }
+
+
+  /*
+  ALIGN:
+
+  align-self: flex-end !important;
+    align-content: flex-end !important;
+    align-items: flex-end !important;
+    justify-content: end !important;
+     flex-direction: row-reverse !important;
+  
+  
+  */
