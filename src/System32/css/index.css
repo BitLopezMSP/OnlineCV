@@ -1,0 +1,123 @@
+main {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+/*main> {
+    -webkit-border-radius: 50px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius: 50px;
+    -moz-border-radius-bottomleft: 3px;
+    border-radius: 50px;
+    border-bottom-left-radius: 3px;
+    min-height: 150px !important;
+    overflow: auto !important;
+   
+}
+*/
+
+main>#section1>div:first-child {
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 3px;
+    border-left: none;
+
+}
+
+main>#section1>div:nth-child(2) {
+    -webkit-border-top-right-radius: 50px;
+    -webkit-border-bottom-right-radius: 50px;
+    -moz-border-radius-topright: 50px;
+    -moz-border-radius-bottomright: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+ul {
+    align-items: left;
+}
+
+ul li {
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+    align-self: left;
+    height: auto;
+    line-height: auto;
+
+}
+
+#descripcionNextUotros div a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 87px;
+    min-height: 87px;
+    /* height: auto !important;
+    width: auto !important;*/
+}
+
+footer {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 110%;
+    margin-bottom: 0 !important;
+    height: 30px;
+
+
+}
+
+
+
+/*.cursoAccordion p{
+    align-self: left;
+    justify-content: left;
+ }
+ .cursoAccordion{
+    align-items: left !important;
+ }*/
+
+
+
+/*ul li:nth-child(4){
+    float:left;
+    padding-left: 0;
+    margin-left: 0;
+    align-self: left;
+    height: 25px;
+    line-height: 80px;
+
+}*/
+@media (max-with: 840px) {
+    section .row {
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (min-with:550px) {
+    #accordion {
+        color: red;
+        min-width: 80% !important;
+        max-width: 85% !important;
+    }
+
+}
+
+/*-webkit-border-radius: 50px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius: 50px;
+-moz-border-radius-bottomleft: 3px;
+border-radius: 50px;
+border-bottom-left-radius: 3px;*/

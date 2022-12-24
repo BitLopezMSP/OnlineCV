@@ -1,0 +1,142 @@
+{
+    "FullStack" : [
+         {
+            "title": "Curso de Prework: Configuración de Entorno de Desarrollo en Windows",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de  Prework: Configuración de Entorno de Desarrollo en Linux",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de Prework: Configuración de Entorno de Desarrollo en macOS",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de Introducción a la Terminal y Línea de Comandos",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso Profesional de Git y GitHub",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de Frontend Developer",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso Práctico de Frontend Developer",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso Básico de JavaScript",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso Práctico de JavaScript",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de ECMAScript: Historia y Versiones de JavaScript",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de Asincronismo con JavaScript",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de NPM: Gestión de Paquetes y Dependencias en JavaScript",
+            "completion": 100,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de Webpack",
+            "completion": 54,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso Práctico de React.js",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso Práctico de Next.js",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+         {
+            "title": "Curso Profesional de Next.js",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+         {
+            "title": "Curso para Conseguir Trabajo como Frontend Developer",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+         {
+            "title": "Curso de Fundamentos de Bases de Datos",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+         {
+            "title": "Curso de Fundamentos de Node.js",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+         {
+            "title": "Curso de Backend con Node.js: API REST con Express.js",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de Backend con Node.js: Base de Datos con PostgreSQL",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        },
+        {
+            "title": "Curso de Backend con Node.js: Autenticación con Passport.js y JWT",
+            "completion": 0,
+            "belongs": "Full Stack Developer",
+            "howMany": 22
+        }
+
+
+    ]
+
+
+
+
+}

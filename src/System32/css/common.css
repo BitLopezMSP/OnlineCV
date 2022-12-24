@@ -1,0 +1,64 @@
+:root {
+    --esteazul: rgb(27, 164, 216);
+    --gradiente: linear-gradient(90deg, rgba(27, 164, 216, 1) 0%, rgba(67, 127, 227, 1) 35%, rgba(151, 53, 252, 1) 100%);
+    --antigradiente: linear-gradient(90deg, rgba(151, 53, 252, 1) 0%, rgba(67, 127, 227, 1) 35%, rgba(27, 164, 216, 1) 100%);
+    --niceblue: rgba(67, 127, 227, 1);
+    /*linear-gradient(90deg, rgba(27,164,216,1) 0%, rgba(67,127,227,1) 35%, rgba(151,53,252,1) 100%)*/
+}
+
+.textogradiente {
+    font-weight: 600;
+    color: transparent !important;
+    font-size: 100px;
+    background-image: var(--gradiente) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.seesconde {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    color: transparent !important;
+    background-color: transparent !important;
+    font-size: 0 !important;
+
+}
+
+.fondogradiente {
+    background: var(--gradiente) !important;
+
+}
+
+.fondoantigradiente {
+    background: var(--antigradiente) !important;
+}
+
+.fondoniceblue {
+    background: var(--niceblue) !important;
+}
+
+
+@media (max-width: 576px) and (orientation: portrait) {
+
+    #contentnavbar ul {
+
+        align-items: flex-end !important;
+
+
+    }
+}
+
+
+/*
+  ALIGN:
+
+  align-self: flex-end !important;
+    align-content: flex-end !important;
+    align-items: flex-end !important;
+    justify-content: end !important;
+     flex-direction: row-reverse !important;
+  
+  
+  */
