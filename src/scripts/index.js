@@ -10,7 +10,7 @@ carouselNext.onclick = carouselpatch();*/
 
 async function cargadoDOMindex() {
 
-    /*let iFromWhileOnload = 0;
+    let iFromWhileOnload = 0;
     var intervalId = window.setInterval(function () {
         // call your function here
 
@@ -20,7 +20,7 @@ async function cargadoDOMindex() {
             cargarBadges();
         }
         ++iFromWhileOnload;
-    }, 5321);*/
+    }, 5321);
 
     /*
     do {
@@ -38,10 +38,10 @@ async function cargadoDOMindex() {
 
 function cargarBadges() {
 
-    console.log('cargarBadges llamada');
+    // console.log('cargarBadges llamada');
 
     // document.getElementById('phpbadge').classList.add("active");
-    const baseRoute = './Users/Santiago/credenciales/NextU/';
+    const baseRoute = './assets/users/Santiago/credenciales/NextU/';
     const badgesObject = {
         phpOOP: {
             alt: `PHP OOP`,
@@ -518,14 +518,14 @@ function fNextCredential() {
 
     if (GenValue === 26) {
         document.getElementById('NextCredential').removeAttribute('onclick');
-        document.getElementById('HTMLObject').setAttribute('data', `../../Users/Santiago/credenciales/AllOfThem/pdf/a (${GenValue}).pdf`);
+        document.getElementById('HTMLObject').setAttribute('data', `assets/users/Santiago/credenciales/AllOfThem/pdf/a (${GenValue}).pdf`);
         document.getElementById('NextCredential').setAttribute('onclick', `alert('Ya vio todas las credenciales');`);
         console.log(GenValue);
 
     } else {
 
         document.getElementById('HTMLObject').removeAttribute('data');
-        document.getElementById('HTMLObject').setAttribute('data', `../../Users/Santiago/credenciales/AllOfThem/pdf/a (${GenValue}).pdf`);
+        document.getElementById('HTMLObject').setAttribute('data', `assets/users/Santiago/credenciales/AllOfThem/pdf/a (${GenValue}).pdf`);
         console.log(GenValue);
     }
 

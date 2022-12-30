@@ -79,7 +79,10 @@ footer {
 
 }
 
-
+.nav-item a img {
+    padding: 0;
+    margin: 0;
+}
 
 /*.cursoAccordion p{
     align-self: left;
